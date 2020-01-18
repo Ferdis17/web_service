@@ -18,6 +18,8 @@ public class CreditCard {
     @XmlAttribute(required = true)
     private String type;
 
+    public CreditCard(){}
+
     public CreditCard(String number, String expiryDate, Integer controlNumber, String type) {
         this.number = number;
         this.expiryDate = expiryDate;
